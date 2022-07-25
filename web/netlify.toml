@@ -1,6 +1,6 @@
 [build]
   base = "High-Echelon/web"
-  publish = "public"
+  publish = "High-Echelon/web/public"
   
 [[plugins]]
   package = "netlify/plugin-gatsby"
