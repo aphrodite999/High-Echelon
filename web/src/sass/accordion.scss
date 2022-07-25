@@ -1,0 +1,6 @@
+.accordion-button {
+  &[aria-expanded="true"],
+  &[aria-selected="true"] {
+    @apply opacity-100 before:w-8 md:before:w-20;
+  }
+}

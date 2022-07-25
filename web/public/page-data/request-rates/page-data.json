@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-request-rates-js",
+    "path": "/request-rates/",
+    "result": {"data":{"openGraphImage":{"publicURL":"/static/e61c89395dad158aa9c5bcb72dd4d77e/Homepage.jpg"},"twitterOpenGraphImage":{"publicURL":"/static/781b4fa6bc183bbfdfad3712d9ca6051/Homepage.jpg"},"logo":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","images":{"fallback":{"src":"/static/6fb8f3a692f887b485025ed9abf2019c/baca8/Logo%20Black.png","srcSet":"/static/6fb8f3a692f887b485025ed9abf2019c/baca8/Logo%20Black.png 93w,\n/static/6fb8f3a692f887b485025ed9abf2019c/69a89/Logo%20Black.png 187w","sizes":"(min-width: 93px) 93px, 100vw"},"sources":[{"srcSet":"/static/6fb8f3a692f887b485025ed9abf2019c/3384f/Logo%20Black.webp 93w,\n/static/6fb8f3a692f887b485025ed9abf2019c/1fe78/Logo%20Black.webp 187w","type":"image/webp","sizes":"(min-width: 93px) 93px, 100vw"}]},"width":93,"height":56}}}},"pageContext":{}},
+    "staticQueryHashes": []}

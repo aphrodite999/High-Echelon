@@ -1,0 +1,19 @@
+.tl-edges {
+  overflow-x: initial !important;
+}
+
+a,
+button {
+  @apply outline-none transition-all duration-300 ease-linear;
+}
+
+.list-check {
+  li {
+    @apply flex;
+    &:before {
+      content: "\f00c";
+      font-family: "Font Awesome 5 Pro";
+      @apply font-normal text-primary-600 mr-3.5;
+    }
+  }
+}

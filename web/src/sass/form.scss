@@ -1,0 +1,38 @@
+.radio-custom {
+  @apply pl-10 text-gray-600 font-semibold after:absolute after:top-0 after:left-0 after:w-7 after:h-7 after:rounded-sm after:bg-gray-100 after:transition-colors after:duration-300 after:ease-linear;
+}
+// input[type="radio"] {
+//   @apply absolute opacity-0;
+//   &:checked {
+//     + span {
+//       @apply text-primary-400;
+//     }
+//     // ~ {
+//     //   @apply after:bg-primary-600;
+//     // }
+//   }
+//   // + i {
+//   //   @apply absolute left-1 top-0.5 text-xl z-10 text-transparent transition-colors duration-300 ease-linear;
+//   // }
+//   + span {
+//     @apply transition-colors duration-300 ease-linear;
+//   }
+// }
+
+// .checkbox-custom {
+//   @apply absolute top-0 left-0 w-5 h-5 bg-white border border-solid border-gray-400;
+//   &:after {
+//     content: "";
+//     width: 10px;
+//     height: 10px;
+//     @apply absolute hidden top-0 left-0 mt-1 ml-1 bg-primary;
+//   }
+// }
+// input[type="checkbox"] {
+//   @apply mr-2 absolute opacity-0;
+//   &:checked {
+//     ~ .checkbox-custom:after {
+//       @apply block;
+//     }
+//   }
+// }
