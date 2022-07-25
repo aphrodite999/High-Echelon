@@ -65,17 +65,17 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   }
 }
 
-// exports.onCreateWebpackConfig = ({ stage, actions, loaders }) => {
-//   if (stage === "build-html" || stage === "develop-html") {
-//     actions.setWebpackConfig({
-//       module: {
-//         rules: [
-//           {
-//             test: /micromodal/,
-//             use: loaders.null(),
-//           },
-//         ],
-//       },
-//     });
-//   }
-// };
+exports.onCreateWebpackConfig = ({ stage, actions, loaders }) => {
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /micromodal/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    });
+  }
+};
