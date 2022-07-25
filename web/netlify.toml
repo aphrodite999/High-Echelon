@@ -1,5 +1,7 @@
+
 [build]
-  base = "web"
+  command = "npm run build"
+  functions = "netlify/functions"
   publish = "/public"
   
 [[plugins]]
