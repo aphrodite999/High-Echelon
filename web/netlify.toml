@@ -1,17 +1,11 @@
 
 [build]
-  command = "gatsby build"
+  command = "npm run build"
   functions = "netlify/functions"
-  publish = "public"
+  publish = "/public"
+  
+[[plugins]]
+  package = "netlify/plugin-gatsby"
 
 [[plugins]]
-  package = "@netlify/plugin-gatsby"
-
-[[plugins]]
-  package = "netlify-plugin-cypress"
-
-  [plugins.inputs.postBuild]
-    enable = true
-
-  [plugins.inputs]
-    enable = false
+  package = "netlify-plugin-inline-critical-css"
