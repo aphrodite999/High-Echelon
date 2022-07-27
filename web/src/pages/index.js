@@ -15,6 +15,7 @@ import About from "../components/Repeating/About";
 //import RecentBlogPosts from "../components/Repeating/RecentBlogPosts";
 import CallToAction from "../components/Repeating/CTA";
 import ButtonSolid from "../components/Button/ButtonSolid";
+// import ButtonTransparent from "../components/Button/ButtonTransparent";
 import ButtonGhost from "../components/Button/ButtonGhost";
 // import ButtonWithIcon from "../components/Button/ButtonWithIcon";
 
@@ -32,14 +33,13 @@ const Page = ({ data }) => {
           mobileRemoveBackground={true}
           textAlignment="text-center"
           padding="pt-10 md:pt-12 pb-14 md:pb-60"
-          maxheight="max-height-[725px]"
         >
           <p className="font-heading text-white text-mobile-7xl md:text-7xl tracking-wider mb-12 md:mb-4 mt-40">
             WE ARE HIGH ECHELON
           </p>
           <p className="font-body text-lg md:text-xl text-white font-semibold mb-16">
-            We are High Echelon Elevated consulting, payroll, accounting & tax
-            services.
+            Elevated Consulting, Payroll, Accounting & Tax
+            Services
           </p>
           <div className="flex justify-center md:justify-center space-x-4 md:space-x-5">
             <ButtonSolid href="/refinance/" text="Book a Call" />
@@ -238,6 +238,7 @@ const Page = ({ data }) => {
       </section>
       {/* <Testimonials /> */}
       {/* <Carousel /> */}
+      <ValueProps />
       <section className="mb-20 md:mb-32 2xl:container 2xl:mx-auto 2xl:px-0 py-3 md:px-10 sm:px-2">
         <p className="text-4xl font-light mb-0 text-center">Our Clients Say Its Best</p>
         <CarouselForm />

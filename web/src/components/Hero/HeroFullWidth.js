@@ -33,7 +33,7 @@ const Hero = ({
       backgroundRepeat: backgroundRepeat || "no-repeat",
     }}
   >
-    <div className="container">
+    <div className="container max-w-[1240px] mx-auto">
       <header className={`${textAlignment} ${textMaxWidth}`}>{children}</header>
     </div>
   </StyledHero>

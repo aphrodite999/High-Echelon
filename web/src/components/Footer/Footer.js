@@ -11,17 +11,18 @@ const Footer = ({ hideFooter }) => {
     return new Date().getFullYear();
   };
 
+// const currentWidth=0;
+
   const [cityDropdownOpen, setCityDropdownOpen] = useState(false);
 
   const citiesClickHandler = () => {
     setCityDropdownOpen(!cityDropdownOpen);
   };
 
-  const currentWidth = 0;
-  const isBrowser = typeof window !== "undefined"
-  if (isBrowser) {
-    currentWidth = window.innerWidth;
-  }
+  // const isBrowser = typeof window !== "undefined"
+  // if (isBrowser) {
+  //   currentWidth = window.innerWidth;
+  // }
 
   const data = useStaticQuery(graphql`
     {
@@ -118,12 +119,12 @@ const Footer = ({ hideFooter }) => {
           hideFooter && "hidden"
         }`}
       >
-        { (currentWidth>=1712) ? 
+        { (window.innerWidth>=1712) ? 
           <div className="text-center">
-            <svg width={currentWidth} height="2" viewBox="0 0 1712 2" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-center">
-              <line y1="1.5" x2={currentWidth} y2="1.5" stroke="url(#paint0_linear_1569_821)" stroke-width="3"/>
+            <svg width={window.innerWidth} height="2" viewBox="0 0 1712 2" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-center">
+              <line y1="1.5" x2={window.innerwidth} y2="1.5" stroke="url(#paint0_linear_1569_821)" stroke-width="3"/>
               <defs>
-              <linearGradient id="paint0_linear_1569_821" x1="0" y1="3.50435" x2={currentWidth} y2="3.4388" gradientUnits="userSpaceOnUse">
+              <linearGradient id="paint0_linear_1569_821" x1="0" y1="3.50435" x2={window.innerwidth} y2="3.4388" gradientUnits="userSpaceOnUse">
               <stop stop-color="#A2A09D" stop-opacity="0"/>
               <stop offset="0.145833" stop-color="#CB9636"/>
               <stop offset="0.265625" stop-color="#CFA855"/>

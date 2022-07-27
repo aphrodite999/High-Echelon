@@ -89,7 +89,7 @@ const MainNav = ({
     loanPrograms: [
       {
         name: "Services",
-        href: "home-purchase"
+        href: "/"
       },
       {
         name: "Small Business Consulting",
@@ -97,15 +97,15 @@ const MainNav = ({
       },
       {
         name: "Account Services",
-        href: "/conventional-loans-chicago/",
+        href: "/",
       },
       {
         name: "Payroll Management",
-        href: "/fha-loans-chicago/",
+        href: "/",
       },
       {
         name: "Income Tax Preparation",
-        href: "/jumbo-loans-chicago/",
+        href: "/",
       },
     ],
     about: [
